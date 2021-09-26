@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:the_complete_2021flutter_udemy/home_screen.dart';
-import 'package:the_complete_2021flutter_udemy/login_screen.dart';
-import 'package:the_complete_2021flutter_udemy/messanger_screen.dart';
+import 'package:the_complete_2021flutter_udemy/models/bmi_result/bmi_result_screen.dart';
+import 'package:the_complete_2021flutter_udemy/models/bmi/bmi_screen.dart';
+import 'package:the_complete_2021flutter_udemy/models/home/home_screen.dart';
+import 'package:the_complete_2021flutter_udemy/models/login/login_screen.dart';
+import 'package:the_complete_2021flutter_udemy/models/messanger/messanger_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MessengerScreen(),
+      home: LoginScreen(),
     );
 
   }
